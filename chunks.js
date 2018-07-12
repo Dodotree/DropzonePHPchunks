@@ -4,7 +4,6 @@ new Dropzone(id,{
             chunkSize: 1*1024*1024,
             forceChunking: false,
             parallelChunkUploads: true,
-            parallelChunkUploads: true,
             retryChunks: true,
             retryChunksLimit: 3,
             chunksUploaded: function(big_file, done_func){
